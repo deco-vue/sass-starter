@@ -1,0 +1,41 @@
+<template>
+	<svg
+		width="30"
+		height="30"
+		viewBox="0 0 30 30"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<path
+			fill-rule="evenodd"
+			clip-rule="evenodd"
+			d="M23.75 12.491C23.75 19.991 15 26.241 15 26.241C15 26.241 6.25 19.991 6.25 12.491C6.25 7.6585 10.1675 3.741 15 3.741C19.8325 3.741 23.75 7.6585 23.75 12.491Z"
+			:stroke="props.color"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+		<path
+			fill-rule="evenodd"
+			clip-rule="evenodd"
+			d="M17.5 12.491C17.5 13.8722 16.3813 14.991 15 14.991C13.6187 14.991 12.5 13.8722 12.5 12.491C12.5 11.1097 13.6187 9.991 15 9.991C16.3813 9.991 17.5 11.1097 17.5 12.491Z"
+			:stroke="props.color"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+	</svg>
+</template>
+
+<script setup lang="ts">
+const props = defineProps({
+	color: {
+		type: String,
+		default: "#000",
+	},
+	size: {
+		type: Number,
+		default: 24,
+	},
+});
+</script>

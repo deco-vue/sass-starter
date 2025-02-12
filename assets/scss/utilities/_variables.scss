@@ -1,5 +1,5 @@
 // Colors
-$primary-color: #3490dc;
+$primary-color: #73839a;
 
 // Sizes
 $xs: 450px;
@@ -10,4 +10,5 @@ $xl: 1280px;
 $xxl: 1536px;
 
 // Fonts
-$roboto: "Roboto", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap");
+$pr-font: "Manrope", serif;

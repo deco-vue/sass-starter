@@ -8,6 +8,8 @@
 
 // Import components
 @use "./components/navbar";
+@use "./components/footer";
 
 // Import pages
 @use "./pages/index";
+@use "./pages/contact";
