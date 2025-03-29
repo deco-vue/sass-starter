@@ -1,9 +1,8 @@
-/* typography.scss fayli loyiha matnlarining umumiy ko'rinishini va uslubini boshqaradi. Bu faylda matn elementlari uchun shrift, o'lchamlar, qalinlik, masofa va boshqa tipografiya qoidalari belgilanadi. */
 // Import all utilities
-@use "../utilities/animations" as *;
-@use "../utilities/functions" as *;
-@use "../utilities/mixins" as *;
-@use "../utilities/variables" as *;
+@use "~/assets/scss/utilities/animations" as *;
+@use "~/assets/scss/utilities/mixins" as *;
+@use "~/assets/scss/utilities/variables" as *;
+
 body {
   font-family: $pr-font;
   font-size: 16px;

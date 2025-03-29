@@ -1,9 +1,8 @@
-/* reset.scss fayli brauzerlarning default uslublarini yo'q qilish yoki bir xilda ishlashini ta'minlash uchun ishlatiladi. Bu faylni asosiy loyihalarda ishlatish ancha foydali. Quyida asosiy reset.scss kodini ko'rishingiz mumkin: */
 // Import all utilities
-@use "../utilities/animations" as *;
-@use "../utilities/functions" as *;
-@use "../utilities/mixins" as *;
-@use "../utilities/variables" as *;
+@use "~/assets/scss/utilities/animations" as *;
+@use "~/assets/scss/utilities/mixins" as *;
+@use "~/assets/scss/utilities/variables" as *;
+
 *,
 *::after,
 *::before {
@@ -13,29 +12,35 @@
   list-style: none;
   text-decoration: none;
 }
+
 *::-webkit-scrollbar {
   width: 10px;
   background: #dcefff;
 }
+
 *::-webkit-scrollbar-thumb {
-  background-color: $primary-color;
+  background-color: $blue;
   border-radius: 50px;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 button {
   background-color: transparent;
   border: none;
   outline: none;
   cursor: pointer;
 }
+
 body {
-  background: #ebecee;
+  background: #fff;
 }
+
 .container {
   width: 100%;
-  max-width: 1758px;
+  max-width: 1740px;
   margin: 0 auto;
   padding: 0 20px;
 
